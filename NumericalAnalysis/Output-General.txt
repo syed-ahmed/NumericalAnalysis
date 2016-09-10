@@ -1,3 +1,0 @@
-﻿We were unable to automatically populate your Team Foundation Service accounts.
-    
-The following error was encountered: One or more errors occurred.

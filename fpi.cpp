@@ -55,7 +55,6 @@ int main(int argc, char* argv[]) {
 		xold = xnew;
 
 	}
-	system("pause");
 	if (abs(diff) <= XACC) return EXIT_SUCCESS;
 	else return EXIT_FAILURE;
 }

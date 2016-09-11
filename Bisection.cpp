@@ -81,7 +81,6 @@ int main(int argc, char* argv[]) {
 		fMid > 0 == decreasing ? left = mid : right = mid;
 
 	}
-	
 	if (abs(fMid) <= XACC) return EXIT_SUCCESS;
 	else return EXIT_FAILURE;
 }

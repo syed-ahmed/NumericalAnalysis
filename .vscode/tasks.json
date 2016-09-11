@@ -3,5 +3,5 @@
     "command": "g++",
     "isShellCommand": true,
     "showOutput": "always",
-    "args": ["-g", "question_two.cpp"]
+    "args": ["-g", "question_six.cpp"]
 }

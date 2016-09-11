@@ -10,6 +10,9 @@ int main()
         -1, 1, 2;
    cout << "Here is the matrix A:\n" << A << endl;
    FullPivLU<Matrix3f> lu(A);
-   if (!lu.isInvertible()) cout << "Matrix is not invertible." << std::endl;
-   cout << "The inverse of A is:\n" << lu.inverse() << endl;
+   if (!lu.isInvertible()){
+       cout << "Matrix is not invertible." << std::endl;
+   } else {
+       cout << "The inverse of A is:\n" << lu.inverse() << endl;
+   }
 }
